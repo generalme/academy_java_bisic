@@ -16,13 +16,13 @@ public class PlusAssignment {
 		
 		num += 1;
 		// num = num +1;
-		System.out.println("num += 1 수행 후 :" + num); //1
+		System.out.println("num += 1 수행 후 :" + num); // 1
 		num = num +1;
-	    System.out.println("num = num + 1 수행 후 :" + num); //
+	    System.out.println("num = num + 1 수행 후 :" + num); // 2
 	    num += num +1;
-	    System.out.println("num += num + 1 수행 후 :" + num);
-	    num *= num * num;
-	    System.out.println("num *= num * num 수행 후 :" + num);
+	    System.out.println("num += num + 1 수행 후 :" + num); // 5
+	    num *= num * num; 
+	    System.out.println("num *= num * num 수행 후 :" + num); // 125
 	}
 
 }
